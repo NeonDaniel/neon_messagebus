@@ -13,7 +13,9 @@ RUN apt-get update && \
     gcc \
     python3-dev \
     swig \
-    libssl-dev
+    libssl-dev \
+    git
+
 
 ADD . /neon_messagebus
 WORKDIR /neon_messagebus
